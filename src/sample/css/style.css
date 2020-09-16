@@ -1,0 +1,60 @@
+#root {
+  -fx-background-color: rgba(31, 31, 31, 0.85);
+  -fx-font-family: "Arial Narrow";
+}
+
+#b0, #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #exit {
+  -fx-text-fill: white;
+  -fx-background-color: rgba(6, 6, 6, 0.8);
+  -fx-background-radius: 0;
+  -fx-font-size: 22px;
+}
+
+#b0:hover, #b1:hover, #b2:hover, #b3:hover, #b4:hover, #b5:hover, #b6:hover, #b7:hover, #b8:hover, #b9:hover, #exit:hover {
+  -fx-background-color: #4d4d4d;
+}
+
+#add, #subtract, #multiply, #divide, #equals, #power, #leftBracket, #rightBracket, #clear, #backspace {
+  -fx-text-fill: white;
+  -fx-background-color: rgba(22, 22, 22, 0.8);
+  -fx-background-radius: 0;
+  -fx-font-size: 22px;
+}
+
+#add:hover, #subtract:hover, #multiply:hover, #divide:hover, #power:hover, #leftBracket:hover , #rightBracket:hover, #backspace:hover, #clear:hover {
+  -fx-background-color: #4d4d4d;
+}
+
+#equals {
+  -fx-text-fill: white;
+  -fx-background-color: rgba(121, 93, 19, 0.88);
+  -fx-background-radius: 0
+}
+
+#equals:hover {
+  -fx-background-color: #e9aa04;
+}
+
+#textField {
+  -fx-background-color: rgba(31, 31, 31, 0.8);
+  -fx-font-family: Monospaced;
+  -fx-text-fill: white;
+  -fx-font-size: 19px;
+  -fx-border-radius: 0;
+}
+
+#textField:hover{
+  -fx-background-color: rgba(29, 29, 29, 0.8);
+}
+
+#exit {
+  -fx-text-fill: white;
+  -fx-padding: 0;
+}
+
+#exit:hover {
+  -fx-background-color: rgba(232, 17, 35, 0.8);
+  -fx-text-fill: white;
+}
+
+
